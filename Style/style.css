@@ -1,3 +1,37 @@
-p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.menu{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+.esq{
+    background-color: yellow;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+.meio{
+    background-color: green;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+.dir{
+    background-color: blueviolet;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin: 20px;
+}
+.roda{
+    background-color: red;
+    height: 60px;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}
+.fundo{
+    background-color: rgb(62, 59, 59);
 }
