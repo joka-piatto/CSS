@@ -60,28 +60,29 @@
             text-align: center;
             text-shadow: 1px 2px 2px black;
         }
-        .linhas{
-            margin-bottom: auto;
-            margin-top: auto;
-            color: orangered;
+        .font{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        padding: 10px;
         }
-        .conteudo{
-            margin: 2px, solid black;
-            padding: 15px;
-            margin: 30px;
-            width: 200px;
-            height: 150px;
-            float: left;
+        .corT{
+        float: left;
+        padding: 10px 10px 10px 10px;
+        width: 320px;
+        height: 220px; 
+        text-align: center;
+        border-top:  double 2px rgb(184, 120, 3);
+        border-bottom: double 2px rgb(184, 120, 3);
         }
-        .principal{
-            margin: solid black 3px;
-            background-color: rgb(255, 255, 255);
+        .cent{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
         }
         .clear{
             clear: both;
-        }
-        
-                    
+        }       
     </style>
 </head>
 <body>
@@ -109,21 +110,30 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit mollitia ducimus nostrum ipsum accusamus animi quod aspernatur, eius, doloremque explicabo quaerat quis excepturi pariatur doloribus. Saepe doloremque ex sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsam, doloremque deserunt ad nulla cumque voluptate, id ipsum maxime culpa nam amet, libero sint dolore itaque inventore aliquid quidem praesentium!</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate excepturi, aspernatur repellat nihil veniam! Qui, rerum accusantium, ea debitis molestias consequatur ab est eos officia corporis possimus officiis non.</p>
         </div>
-        <div class="principal">
-            <div class="conteudo">
+        
+            <div class="corT">
                 <img src="Imagens/imagem1-10" >
-                Vila 10
+                <legend>Vila 10</legend> 
             </div>
-            <div class="conteudo">
+            <div class="corT">
                 <img src="Imagens/imagem2-10" >
-                vila 70
+                <legend>vila 70</legend>
             </div>
-            <div class="conteudo">
+            <div class="corT">
                 <img src="Imagens/imagem3-10" > 
-                Vila 54               
+                <legend>Vila 26</legend>            
             </div>
+        
         <div class="clear"></div>
+            <p class="font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+            </p>
         </div>    
     </main>
+    <hr>
+    <footer>
+        <p class="cent"> <small>&copy; Lorem ipsum <br> SENAI/SP</small></p>
+    </footer>
+    </div> 
 </body>
 </html>
