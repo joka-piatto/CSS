@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul a{
+            width: 180px;
+            height: 40px;
+            background-color: orangered;
+            text-decoration: none;
+            display: block;
+            color: white;
+            text-indent: 20px;
+            line-height: 40px;
+        }
+        ul a:hover{
+            background-color: orange;
+        }
+        ul ul{
+            display: none;
+        }
+        ul li:hover > ul{
+            display: block;
+        }
+        ul ul{
+            position: absolute;
+            left: 190px;
+        }
+        /* para funcionar o submenu */
+        ul ul a:hover{
+            background-color: rgb(247, 179, 51);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="">CONHEÇA-NOS</a>
+            <ul>
+                <li><a href="#">HISTÓRIA</a></li>
+                <li><a href="#">EQUIPE</a></li>
+                <li><a href="#">ESTABELECIMENTO</a></li>
+            </ul>
+        </li>
+        <li><a href="#">CARDÁPIO</a>
+            <ul>
+                <li><a href="#">BEBIDAS</a></li>
+                <li><a href="#">PORÇÕES E PETISCOS</a></li>
+            </ul>
+        </li>
+    
+        <li><a href="#">FORNECEDORES</a></li>
+        <li><a href="#">RECLAMAÇÕES</a></li>
+    </ul>
+    
+</body>
+</html>
