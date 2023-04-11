@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Vertical</title>
+    <style>
+        
+    ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    ul a{
+        width: 150px;
+        height: 40px;
+        background-color: orangered;
+        text-decoration: none;
+        display: block;
+        color: aliceblue;
+        text-indent: 10px;
+        line-height: 40px;
+    }
+    ul a:hover{
+        background-color: orange;
+    }
+    ul ul{
+        display: none;
+    }
+    ul ul{
+        position: absolute;
+        left: 152px;
+    }
+    ul li:hover >ul{
+        display: block;
+    }
+    ul ul:hover{
+        background-color: rgb(247, 179, 51);
+    }
+    #home .home a{
+        background-color: orange;
+    }
+    #produtos .produtos a{
+        background-color: orange;
+    }
+    </style>
+</head>
+<body id="produtos">
+    <header>
+    </header>
+    <main>
+        <h1>PRODUTOS</h1>
+        <ul>
+            <li class="home"><a href="test 07 - Menu Vertical-01.html">HOME</a></li>
+            <li class="produtos"><a href="test 07 - Menu Vertical-02.html">PRODUTOS</a></li>
+            <li><a href="#">SERVIÇOS</a>
+                <ul>
+                    <li><a href="#">MECÂNICO</a></li>
+                    <li><a href="#">FUNILEIRO</a></li>
+                </ul>
+            </li>
+            <li><a href="#">AGENDAMENTO</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
