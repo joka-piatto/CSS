@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fixo</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+        #conteiner{
+            background-color: aquamarine;
+            width: 1000px;
+            height: 495px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .top{
+            width: 1000px;
+            height: 80px;
+            border: 2px solid red;
+        }
+        .esq{
+            border: 2px solid green;
+            width: 200px;
+            float: left;
+
+        }
+        .meio{
+            border: 2px solid blue;
+            width: 400px;
+            float: left;
+        }
+        .dir{
+            border: 2px solid yellow;
+            width: 390px;
+            float: left;
+        }
+        .roda{
+            width: 1000px;
+            height: 80px;
+            border: 2px solid rgb(255, 0, 162);
+        }
+        .clear{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <header>
+            <div class="top">
+                LOGO
+            </div>
+        </header>
+        
+        <main>
+            <div class="esq">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">VENDA</a></li>
+                    <li><a href="#">COMPRA</a></li>
+                    <li><a href="#">ALUGUEL</a></li>
+                    <li><a href="#">PLANTAS</a></li>
+                    <li><a href="#">REFORMA</a></li>
+                </ul>
+            </div>
+            <div class="meio">
+                <h2>Corinthians é o melhor</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae pariatur maiores, nulla quae cum corporis atque reprehenderit. Dolorem impedit laudantium suscipit cum culpa velit ipsam illo non officia fugiat?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+            </div>
+            <div class="dir">
+                <h2>Palmeiras ruim</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae pariatur maiores, nulla quae cum corporis atque reprehenderit. Dolorem impedit laudantium suscipit cum culpa velit ipsam illo non officia fugiat?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+            </div>
+        </main>
+        <div class="clear"></div>
+        <footer>
+            <div class="roda">
+                RODAPÉ
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Liquido</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(59, 55, 55);
+        }
+        #conteiner{
+            background-color: aquamarine;
+            width: 85%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            min-width: 750px;
+            max-width: 1200px;
+        }
+        .top{
+            width: 100%;
+            height: 200px;
+            border: 1px solid red;
+            background: #215891 url(Imagens/cabecalho2.jpg) no-repeat center;
+        }
+        .esq{
+            border: 1px solid green;
+            width: 18%;
+            float: left;
+        }
+        .meio{
+            border: 1px solid blue;
+            width: 45%;
+            float: left;
+        }
+        .dir{
+            border: 1px solid yellow;
+            width: 36%;
+            float: left;
+        }
+        .roda{
+            width: 100%;
+            height: 80px;
+            border: 1px solid rgb(255, 0, 162);
+        }
+        .clear{
+            clear: both;
+        }
+        img.img-noticia{
+            width: 94%;
+            padding: 2%;            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <header>
+            <div class="top">
+                LOGO
+            </div>
+        </header>
+        
+        <main>
+            <div class="esq">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">VENDA</a></li>
+                    <li><a href="#">COMPRA</a></li>
+                    <li><a href="#">ALUGUEL</a></li>
+                    <li><a href="#">PLANTAS</a></li>
+                    <li><a href="#">REFORMA</a></li>
+                </ul>
+            </div>
+            <div class="meio">
+                <h2>Corinthians é o melhor</h2>
+                <img class="img-noticia" src="Imagens/natureza.jpg">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae pariatur maiores, nulla quae cum corporis atque reprehenderit. Dolorem impedit laudantium suscipit cum culpa velit ipsam illo non officia fugiat?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+            </div>
+            <div class="dir">
+                <h2>Palmeiras ruim</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam beatae pariatur maiores, nulla quae cum corporis atque reprehenderit. Dolorem impedit laudantium suscipit cum culpa velit ipsam illo non officia fugiat?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aut a autem, ut earum magnam itaque dolorum? Quos, rem tenetur nesciunt alias, earum accusamus voluptatum ullam tempore excepturi ea deleniti!
+                </p>
+            </div>
+        </main>
+        <div class="clear"></div>
+        <footer>
+            <div class="roda">
+                RODAPÉ
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
