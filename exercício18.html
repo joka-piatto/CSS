@@ -4,25 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 18 - CSS</title>
+    <title>Colaboradores - FlexBox</title>
     <style>
         *{
             margin: 0;
             padding: 0;
         }
         .titulo{
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             text-transform: uppercase;
             text-align: center;
             padding: 30px;
-            color: white;
+            color: rgb(0, 0, 0);
         }
         .conteudo{
-            background-image: linear-gradient(to bottom, black, rgb(255, 98, 0), yellow);
+            background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(37, 37, 37), rgb(255, 255, 255));
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .item{
+            width: 20%;
+            height: 200px;
+            margin: 10px;
+            background-color: rgb(29, 29, 29);
+            flex-wrap: 0;
+            flex-shrink: 1;
+            border-radius: 10px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: rgb(0, 0, 0);
+        }
+        
+        .item:hover{
+            width: 30%;
+            height: 300px;
+        }
+        
+        .itemA{
+            background-image: url(Imagens/070e9350801779.58da1e3fdf42c.jpg);
+        }
+        .itemB{
+            background-image: url(Imagens/0fea6c101658605.5f23aa9c5f636.jpg);
+        }
+        .itemC{
+            background-image: url(Imagens/40868c101658605.5f23aa9c5f159.jpg);
+        }
+        .itemD{
+            background-image: url(Imagens/517342101658605.5f23aa9c5d648.jpg);
         }
     </style>
 </head>
 <body>
-    
-</body>
-</html>
+    <div class="titulo">
+        <h1>NOVIDADES</h1>
+    </div>
+    <div class="conteudo">
+        <div class="item itemA"></div>
+        <div class="item itemB"></div>
+        <div class="item itemC"></div>
+        <div class="item itemD"></div>
+        <div class="item itemA"></div>
+        <div class="item itemB"></div>
+        <div class="item itemC"></div>
+        <div class="item itemD"></div>
+        <div class="item itemA"></div>
+        <div class="item itemB"></div>
+        <div class="item itemC"></div>
+        <div class="item itemD"></div>
+    </div>
+    </body>
+    </html>
