@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornecedores</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family= Finger +Paint & display=swap');
+    body, html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #d0cdcd;
+    }
+    .cabe{
+        width: 100%;
+        height: 100px;
+        background-color: #5b5b5b;
+    }
+    input{
+        width: 20%;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        border: solid rgb(1,1,1) 1.5px;
+        border-radius: 10px;
+        background-image: url(img/Imagens/64673.png);
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-position: top 5px right 10px;
+        margin-top: 30px;
+        margin-right: 20px;
+        float: right;
+    }
+    .logo{
+        float: left;
+        text-indent: 20px;
+ 
+    }
+    .logo img{
+        position: relative;
+        width: 31%;
+
+    }
+    .cabe ul{
+        float: left;
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .cabe ul li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+        color: rgb(213, 204, 29);
+        font-family: 'Finger Paint', cursive;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+    .cabe ul li a{
+        color: rgb(246, 238, 238);
+        text-decoration: none;
+    }
+    .cabe ul li a:hover{
+        color: rgb(197, 189, 47);
+    }
+    .clear{
+        clear: both;
+    }
+    
+    main{
+        margin-top: 150px;
+        margin-top: 218px;
+       
+        width: 100%;
+        height: 100%;
+        background-color: #d0cdcd;
+    }
+    p{
+        text-align: justify;
+        line-height: 1.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: bisque;
+    }
+    a:hover{
+        color:rgb(255, 252, 252);  
+    }
+    .menu_top{
+        width: 100%;
+        height: 170px;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        border-top: 10px solid rgb(255, 255, 255);
+        background-color: bisque;
+    }
+    .top_esq{
+        width: 170px;
+        float:left;
+        padding: 10px;
+    }
+    .top_center{
+        float:left;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100px;
+        color: rgb(255, 255, 255);;
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+    .menu_top{
+        width: 100%;
+        height: 170px;
+        border-bottom: 20px solid rgb(255, 253, 251);
+        border-top: 15px solid rgb(255, 255, 255);
+        background-color:rgb(220, 184, 64);
+    }
+    .top_esp{
+        width: 140px;
+        float: left;
+        padding: 15px;
+    }
+    .top_dd{
+        width: 240px;
+        float: left;
+        padding: 10px;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    .top_dir{
+        float: left;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 100px;
+        color: #fffcfc;
+        padding-top: 20px;
+    }
+    .m_meio{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 950px;
+        background-color: #d0cdcd;
+    }
+    .m_meio img{
+        border-radius: 10px;
+        float: left;
+        margin: 25px;
+        margin-left: 10px;
+        width: 320px;
+        border: rgb(239, 92, 0) solid 1px;
+    }
+    .roda{
+        margin-top: -20px;
+        height: 330px;
+        background-color: #5b5b5b;
+    }
+    .roda .down_up{
+        text-align: center;
+        color: rgb(241, 241, 234);
+        font-family: 'Finger Paint' cursive;
+        font-size: 4em;
+    }
+    .roda .down_meio{
+        text-align: center;
+        color: rgb(241, 240, 233);
+        font-family: 'Finger Paint',cursive;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .roda .down_down{
+        text-align: center;
+    }
+    .roda .down_down img{
+        width: 40px;
+        border-radius: 25px;
+        border: 4px rgb(241, 241, 235) dotted;
+        cursor: pointer;
+        margin: 20px;
+        padding: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="cabe">
+            <div class="logo">
+                <img src="img/Imagens/095885858 taça.png">
+            </div>
+            <div>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Conheça-nos.html">CONHEÇA-NOS</a></li>
+                    <li><a href="Cardápio.html">CARDÁPIO</a></li>
+                    <li><a href="Reclamações.html">RECLAMAÇÕES</a></li>
+                    <li><a href="Fornecedores.html">FORNECEDORES</a></li>
+                </ul>
+            </div>
+            <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+        </div>
+        <div>
+            <figure>
+                <img src="banners/banner para fornecedor.png" alt="começo" width="1385" height="300">
+            </figure>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    
+            <div class="m_meio">
+                <a href="https://www.brahma.com.br/" target="_blank"><img src="img/Imagens/Imagens F/logo brahma.png" alt="Brahma" height="250" width="350" ></a>
+
+                <a href="https://www.heinekenbrasil.com.br/" target="_blank"><img src="img/Imagens/Imagens F/109_heineken-removebg-preview.png" alt="Heineken" height="250" width="350"></a>
+
+                <a href="https://www.amstelbrasil.com/" target="_blank"><img src="img/Imagens/Imagens F/amstel-logo-1.png" alt="Amstel" height="250" width="350" ></a>
+
+                <a href="https://www.bohemiapuromalte.com.br/" target="_blank"><img src="img/Imagens/Imagens F/logo-bohemia-1536.png" alt="Bohemia" height="250" width="320"></a>
+
+                <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><img src="img/Imagens/Imagens F/Sem Título-1.png" alt="Bourbon" height="250" width="300"></a>
+
+                <a href="https://www.vinhobolsonaro.com.br/" target="_blank"><img src="img/Imagens/Imagens F/Sem Título-bozo.png" alt="Vinho Bolsonaro" height="250" width="300"></a>
+        
+                <a href="https://www.coronastore.com.br/cervejas" target="_blank"><img src="img/Imagens/Imagens F/Corona-Extra-Logo-removebg-preview.png" alt="Corona Extra" height="250" width="300"></a>
+
+                <a href="https://br.thebar.com/tanqueray-oficial" target="_blank"><img src="img/Imagens/Imagens F/Logo-Tanqueray-01-removebg-preview.png" alt="Tanqueray" height="250" width="300"></a>
+
+                <a href="https://br.thebar.com/smirnoff" target="_blank"><img src="img/Imagens/Imagens F/Smirnoff-Logo.png" alt="Smirnoff" height="250" width="320"></a>
+
+                <a href="https://www.absolut.com/br/" target="_blank"><img src="img/Imagens/Imagens F/2000px-Absolut_Vodka_logo.svg-1024x1024.png" alt="YouTube" height="250" width="320"></a>
+
+                <a href="https://www.jackdaniels.com/" target="_blank"><img src="img/Imagens/jack daniel.png" alt="Jack Daniel's" height="250" width="320"></a>
+
+                <a href="https://www.ballantines.com/pt-br/" target="_blank"><img src="img/Imagens/tc1c2ue6-removebg-preview.png" alt="Ballantines" height="250" width="320"></a>
+            </div>
+
+        <div class="roda">
+            <br><br><br>
+            <div class="down_up">Drinkeria</div>
+            <div class="down_meio">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>#SejaUmFornecedor</div>
+            <div class="down_down">
+                <a href="https://pt-br.facebook.com/" target="_blank"><img src="img/Imagens/face_logo_01.png"></a>
+                <a href="https://web.whatsapp.com" target="_blank"><img src="img/Imagens/whats_logo_01.png"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="img/Imagens/inst_logo_01.png"></a>
+            </div>
+        </div>
+</body>
+</html>

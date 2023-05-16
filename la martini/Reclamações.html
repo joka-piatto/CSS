@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Martini</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family= Finger +Paint & display=swap');
+    body, html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #d0cdcd;
+    }
+    .cabe{
+        width: 100%;
+        height: 100px;
+        background-color: #5b5b5b;
+    }
+    input{
+        width: 20%;
+        height: 30px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        border: solid rgb(1,1,1) 1.5px;
+        border-radius: 10px;
+        background-image: url(img/Imagens/64673.png);
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-position: top 5px right 10px;
+        margin-top: 30px;
+        margin-right: 20px;
+        float: right;
+    }
+    .logo{
+        float: left;
+        text-indent: 20px;
+ 
+    }
+    .logo img{
+        position: relative;
+        width: 31%;
+
+    }
+    .cabe ul{
+        float: left;
+        width: 50%;
+        margin: 0px 0px 0px 20px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .cabe ul li{
+        text-decoration: none;
+        display: inline;
+        padding: 10px;
+        color: rgb(213, 204, 29);
+        font-family: 'Finger Paint', cursive;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+    .cabe ul li a{
+        color: rgb(246, 238, 238);
+        text-decoration: none;
+    }
+    .cabe ul li a:hover{
+        color: rgb(197, 189, 47);
+    }
+    h2{
+        text-shadow: 6px 1px 6px rgb(34, 33, 33);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1{
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .tepo{
+        padding: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .roda{ /* muda a cor do fundo */
+            height: 65px; /* altera o tamanho da DIV, altura*/
+            color: #ffffff; /* defini a cor do texto */
+            font-style: italic; /* defini com como italico */
+    }
+    .cent {
+        text-align: center; /* alinha o texto */ /* muda a cor do fundo*/
+    }
+    .fim{
+        background-color: #5b5b5b;
+    }
+
+</style>
+<body>
+
+    <div class="cabe">
+        <div class="logo">
+            <img src="img/Imagens/095885858 taça.png">
+        </div>
+        <div>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="Conheça-nos.html">CONHEÇA-NOS</a></li>
+                <li><a href="Cardápio.html">CARDÁPIO</a></li>
+                <li><a href="Reclamações.html">RECLAMAÇÕES</a></li>
+                <li><a href="Fornecedores.html">FORNECEDORES</a></li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar">
+    </div>
+
+    <div>
+       <h1>Reclame aqui!</h1>
+    </div>
+
+    <div class="tepo">
+        <h2>Caixa de Reclamação</h2>
+        <p>Escreva na caixa de texto abaixo suas reclamações e como podemos melhorar o espaço La Martini. Deixe sua crítica ou sugestão abaixo e envie pra gente!</p>
+
+        <form method="post" action="#">
+            <textarea name="Reclamação" style="resize: none" required="yes" rows="7" cols="50"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <br>
+    
+
+    
+    <div class="fim">
+        <div class="cent">&nbsp;</p>  
+        <div class="roda">  
+            
+            <p>&copy; Lorem ipsum - Tec. Multimídea - SENAI-SP </p>
+            <p>Santa Cruz do Rio Pardo - SP</p>
+        </div>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
